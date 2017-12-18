@@ -1,0 +1,33 @@
+body {
+  margin: 0  auto;
+}
+textarea {
+  resize: none;
+  width: 100%;
+}
+.pull-right {
+  margin-top: 10px;
+}
+.commentList,
+.commentInput {
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  padding: 20px;
+}
+.commentInput {
+  background-color: #f1f1f1;
+}
+.commentInput div {
+  padding: 20px;
+}
+.commentList {
+  margin-top: 10px;
+}
+.commentList > div {
+  clear: both;
+  margin-bottom: 40px;
+}
+.commentList > div > span {
+  color: #337ab7;
+  font-size: 16px;
+}
